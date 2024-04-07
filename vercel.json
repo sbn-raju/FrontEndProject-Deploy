@@ -28,8 +28,8 @@
       "use": "@vercel/static"
     },
     {
-        "src":"src/*.js",
-        "use":"@vercel/node"
+      "src":"src/*.js",
+      "use":"@vercel/node"
     }
         
   ]
