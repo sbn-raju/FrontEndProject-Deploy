@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname,"../public/css")));
 app.use(express.static(path.join(__dirname,"../public/js")));
 app.use(express.static(path.join(__dirname,"../public/images")));
-// app.use(express.static(path.join(__dirname,"public")));
+
 
 const getIndexPage = require("./routes/indexPage.routes.js");
 const getProjectpage = require("./routes/projectPage.routes.js");
