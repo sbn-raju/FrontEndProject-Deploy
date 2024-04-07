@@ -1,0 +1,13 @@
+{
+      "src": "/public/(.*)",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/controllers/(.*)",
+      "dest": "/src/controllers/$1"
+    },
+    
+    {
+      "src": "/views/(.*)",
+      "dest": "/views/$1"
+    },
