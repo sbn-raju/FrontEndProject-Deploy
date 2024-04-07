@@ -31,3 +31,7 @@ app.listen(process.env.PORT||8080,()=>{
 });
 
 
+// {
+//     "src": "/routes/(.*)",
+//     "dest": "/src/routes/$1"
+//   },
