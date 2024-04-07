@@ -35,3 +35,16 @@ app.listen(process.env.PORT||8080,()=>{
 //     "src": "/routes/(.*)",
 //     "dest": "/src/routes/$1"
 //   },
+// {
+//     "src": "/public/(.*)",
+//     "dest": "/public/$1"
+//   },
+//   {
+//     "src": "/controllers/(.*)",
+//     "dest": "/src/controllers/$1"
+//   },
+  
+//   {
+//     "src": "/views/(.*)",
+//     "dest": "/views/$1"
+//   },
