@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "routes": [
+ 
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/src/index.js"
+        "source": "/(.*)",
+        "destination": "/index.js"
     }
   ],
   "builds": [
