@@ -22,29 +22,10 @@ const getProjectpage = require("./routes/projectPage.routes.js");
 
 
 app.get("/",getIndexPage);
-app.get("/api/project",getProjectpage);
+app.get("/api/project/:id",getProjectpage);
 
 
 
 app.listen(process.env.PORT||8080,()=>{
     console.log("App is listening at port");
 });
-
-
-// {
-//     "src": "/routes/(.*)",
-//     "dest": "/src/routes/$1"
-//   },
-// {
-//     "src": "/public/(.*)",
-//     "dest": "/public/$1"
-//   },
-//   {
-//     "src": "/controllers/(.*)",
-//     "dest": "/src/controllers/$1"
-//   },
-  
-//   {
-//     "src": "/views/(.*)",
-//     "dest": "/views/$1"
-//   },
