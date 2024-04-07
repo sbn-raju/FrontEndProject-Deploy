@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height:4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-navbar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-navbar{
+    width: 50%;
+    height: 100%;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects{
+    height: 40rem;
+    width: 25rem;
+    margin: 5px;
+    border: 2px solid black;
+}
+.picture{
+    height: 15rem;
+    width: 100%;
+    background-color: aqua;
+}
+.project-title{
+    height: 3rem;
+    width: 100%;
+    
+}
+.project-title h1{
+    margin: 3px;
+}
+.project-details{
+    height: 15rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.project-details p{
+    font-size: larger;
+    padding: 4px;
+}
+.project-1 .picture{
+    background-image: url('AreaandPerimeter.png');
+    background-size: contain;
+}
+.project-2 .picture{
+    background-image: url('billSplitter.png');
+    background-size: contain;
+}
+.project-3 .picture{
+    background-image: url('bmi.png');
+    background-size: contain;
+}
+.project-4 .picture{
+    background-image: url('colorgenetrator.png');
+    background-size: contain;
+}
+.project-5 .picture{
+    background-image: url('counter.png');
+    background-size: contain;
+}
+.project-6 .picture{
+    background-image: url('forms.jpeg');
+    background-size: contain;
+}
+.project-7 .picture{
+    background-image: url('guessnumber.jpeg');
+    background-size: contain;
+}
+.project-8 .picture{
+    background-image: url('portfolio.jpeg');
+    background-size: contain;
+}
+.project-9 .picture{
+    background-image: url('rockpaper.png');
+    background-size: contain;
+}
+.project-10 .picture{
+    background-image: url('tictactoe.png');
+    background-size: contain;
+}
+.project-11 .picture{
+    background-image: url('colorgenetrator.png');
+    background-size: contain;
+}
+.project-12 .picture{
+    background-image: url('weekdays.png');
+    background-size: contain;
+}
+.btn{
+    margin-left: 2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: rgb(109, 34, 180);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
