@@ -24,10 +24,6 @@
   ],
   "builds": [
     {
-      "src": "/public/(.*\\.css)",
-      "use": "@vercel/static"
-    },
-    {
       "src":"src/*.js",
       "use":"@vercel/node"
     }
