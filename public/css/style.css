@@ -3,11 +3,15 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: black;
+}
 .navbar{
     height:4rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .left-navbar{
     width: 50%;
@@ -32,20 +36,21 @@
     height: 40rem;
     width: 25rem;
     margin: 5px;
-    border: 2px solid black;
+    border: 1px solid gray;
+    border-radius: 2rem;
 }
 .picture{
     height: 15rem;
     width: 100%;
-    background-color: aqua;
 }
 .project-title{
     height: 3rem;
     width: 100%;
-    
 }
 .project-title h1{
     margin: 3px;
+    color: white;
+    padding-left: 4px;
 }
 .project-details{
     height: 15rem;
@@ -55,54 +60,79 @@
 .project-details p{
     font-size: larger;
     padding: 4px;
+    color: white;
 }
 .project-1 .picture{
     background-image: url('AreaandPerimeter.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-2 .picture{
     background-image: url('billSplitter.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-3 .picture{
     background-image: url('bmi.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-4 .picture{
     background-image: url('colorgenetrator.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-5 .picture{
     background-image: url('counter.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-6 .picture{
     background-image: url('forms.jpeg');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-7 .picture{
     background-image: url('guessnumber.jpeg');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-8 .picture{
     background-image: url('portfolio.jpeg');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-9 .picture{
     background-image: url('rockpaper.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-10 .picture{
     background-image: url('tictactoe.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-11 .picture{
     background-image: url('colorgenetrator.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .project-12 .picture{
     background-image: url('weekdays.png');
     background-size: contain;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .btn{
     margin-left: 2rem;
@@ -121,4 +151,15 @@ a{
     text-decoration: none;
     color: white;
 }
+.footer{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(106, 103, 103);
+}
+
 
