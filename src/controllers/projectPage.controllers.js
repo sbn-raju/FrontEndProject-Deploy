@@ -31,60 +31,59 @@ const getprojectPageContorller = (req, res) => {
       break;
     case "5":
       try {
-        req.render("Counter.ejs");
+        res.render("Counter.ejs");
       } catch (err){
         console.log(err);
       }
       break;
     case "6":
       try {
-        console.log("Forms.ejs");
+        res.render("Forms.ejs");
       } catch (err) {
         console.error(err);
       }
       break;
     case "7":
       try {
-        console.log("GuessNumber.ejs");
+        res.render("GuessNumber.ejs");
       } catch (err) {
         console.log("");
       }
       break;
     case "8":
       try {
-        console.log("Portfolio.ejs");
+        res.render("Portfolio.ejs");
       } catch (err) {
         console.log("");
       }
       break;
     case "9":
         try{
-            console.log("RockPaperScissors.ejs");
+          res.render("RockPaperScissors.ejs");
         }catch(err){
             console.log();}
         break;
     case "10":
         try {
-            console.log("TicTacToe.ejs");
+          res.render("TicTacToe.ejs");
         } catch (err) {
           console.log("");
         }
         break;
      case "11":
       try {
-        console.log("BgChanger.ejs");
+        res.render("BgChanger.ejs");
       } catch (err) {
         console.log("");
       }
       break;
     case "12":
       try {
-        console.log("printWeekDays.ejs");
+        res.render("printWeekDays.ejs");
       } catch (err) {
         console.log("");
       }
       break;
-    
   }
 };
 module.exports = getprojectPageContorller;
